@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Biblioteca</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📚 Lista de Livros</h1>
+
+  <table id="book-table" border="1">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Autor</th>
+        <th>Gênero</th>
+        <th>Páginas</th>
+        <th>Sinopse</th>
+        <th>Observação</th>
+        <th>Concluído</th>
+        <th>Selecionar</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Livros -->
+    </tbody>
+  </table>
+
+  <button id="search-selected">Obter livro selecionado</button>
+  <button id="delete-selected">Deletar Selecionados</button>
+
+  <h2>Adicionar Livro</h2>
+  <form id="book-form">
+    <input type="hidden" name="id">
+    <input type="text" name="name" placeholder="Nome" required><br>
+    <input type="text" name="author" placeholder="Autor" required><br>
+    <input type="text" name="genre" placeholder="Gênero" required><br>
+    <input type="number" name="num_pages" placeholder="Páginas" required><br>
+    <input type="text" name="des_synopsis" placeholder="Sinopse"><br>
+    <input type="text" name="des_note" placeholder="Observação"><br>
+    <label>
+      <input type="checkbox" name="flg_completed"> Lido
+    </label><br>
+    <button type="submit">Cadastrar</button>
+    <button type="button" id="edit-btn">Editar</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
