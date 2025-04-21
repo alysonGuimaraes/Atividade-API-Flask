@@ -55,7 +55,7 @@ Tem como objetivo exercitar os conceitos vistos em sala de aula sobre o desenvol
 
 ### Para rodar o Front-end:
 
-1. Abra o arquivo `index.html` com o **Live Server** no seu editor de código (como o Visual Studio Code) ou em qualquer outro servidor local.
+1. Abra o arquivo `webpage/index.html` com o **Live Server** no seu editor de código (como o Visual Studio Code) ou em qualquer outro servidor local.
 2. A interface estará acessível no navegador e conectará automaticamente à API para consumo dos dados.
 
 ## Endpoints da API
